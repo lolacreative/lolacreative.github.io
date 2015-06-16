@@ -2,6 +2,23 @@ body {
 	background-color: orange;
 }
 
-h1, h3, p {
+h1 {
+	color: white;
+} 
+
+h3 {
+	color: white;
+} 
+
+#second {
+	font-weight: normal;
+
+}
+
+.important {
+	font-size: 20px;
+}
+
+p {
 	color: white;
 }
