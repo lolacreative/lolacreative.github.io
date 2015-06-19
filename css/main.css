@@ -41,3 +41,9 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
+#splash {
+	background-image:url("../images/twogirls3_A.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:90vh;
+}
