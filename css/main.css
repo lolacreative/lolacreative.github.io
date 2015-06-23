@@ -2,7 +2,7 @@
 
 body {
 	color: #666666;
-	font-size:16px;
+	font-size:24px;
 	font-family: Arial, sans-serif;
 	background-color: #FFFFFF;
 }
@@ -13,12 +13,16 @@ h1 {
 	font-family: "le-monde-journal-std-2",sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	font-size:1.25em;
 	text-align: center;
+	padding-top: 1em;
 	color: #D84832;
 }
 
 p {
 	text-align: center;
+	padding: 20px 45px 50px 45px;
+	margin: 0em 10em 0em 10em;
 }
 
 ul {
@@ -31,9 +35,9 @@ li{
 
 a {
 	display: block;
-	width: 90px;
+	width: 100px;
 	margin: .25em;
-	padding: 1em 0 0 0;
+	padding: 1em 5em 2em 0em;
 	color: #666666;
 	text-decoration: none;
 }
@@ -47,5 +51,5 @@ a:hover, a:active {
 	background-image:url("../images/twogirls3_A.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-	height:90vh;
+	height:110vh;
 }
