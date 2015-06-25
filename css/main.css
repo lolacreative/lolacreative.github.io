@@ -35,7 +35,7 @@ li{
 }
 
 a {
-	font-size: .75em;
+	font-size: 1em;
 	width: 4.5em;
 	margin: .25em;
 	padding: 1em;
@@ -58,7 +58,7 @@ a:hover, a:active {
 
 footer {
 	padding: 2em;
-	font-size: .75em;
+	font-size: 1em;
 }
 
 
