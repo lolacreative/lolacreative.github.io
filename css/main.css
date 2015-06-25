@@ -23,6 +23,7 @@ p {
 	text-align: center;
 	padding: 20px 45px 50px 45px;
 	margin: 0em 10em 0em 10em;
+
 }
 
 ul {
@@ -34,10 +35,10 @@ li{
 }
 
 a {
-	display: block;
-	width: 100px;
+	font-size: .75em;
+	width: 4.5em;
 	margin: .25em;
-	padding: 1em 5em 2em 0em;
+	padding: 1em;
 	color: #666666;
 	text-decoration: none;
 }
@@ -51,5 +52,20 @@ a:hover, a:active {
 	background-image:url("../images/twogirls3_A.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-	height:110vh;
+	margin: 1em 0em 0em 0em;
+	height:95vh;
 }
+
+footer {
+	padding: 2em;
+	font-size: .75em;
+}
+
+
+
+
+
+
+
+
+
