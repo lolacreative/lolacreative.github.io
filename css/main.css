@@ -6,6 +6,7 @@ body {
 	font-family: Arial, sans-serif;
 	background-color: #FFFFFF;
 }
+
 nav {
 	float:right;
 }
@@ -38,7 +39,7 @@ a {
 	font-size: 1em;
 	width: 4.5em;
 	margin: .25em;
-	padding: 1em;
+	padding: 1em 3em 0em 0em;
 	color: #666666;
 	text-decoration: none;
 }
