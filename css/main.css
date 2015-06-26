@@ -1,4 +1,4 @@
-
+* { margin:0; padding:0; box-sizing:border-box; }
 
 body {
 	color: #666666;
@@ -9,6 +9,13 @@ body {
 
 nav {
 	float:right;
+}
+nav a {
+	font-size:.66em;
+}
+header {}
+header img {
+	width:10em;
 }
 h1 {
 	font-family: "le-monde-journal-std-2",sans-serif;
@@ -53,7 +60,6 @@ a:hover, a:active {
 	background-image:url("../images/twogirls3_A.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-	margin: 2em 3em 0em 3em;
 	height:90vh;
 }
 
