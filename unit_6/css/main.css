@@ -1,0 +1,182 @@
+
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing: border-box; 
+}
+
+
+#wrapper {
+	max-width:1700px; 
+	margin: 0 auto;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+
+body {
+   font-family: 'Khula', sans-serif;
+
+}
+
+header {
+	padding-top: 2.5em;
+	padding-left: 2em;
+	clear:both;
+}
+
+#hero {
+	background-image: url("../../unit_6/images/placeholder.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:85vh;
+	clear:both;
+}
+
+
+.text_on_image {
+	width: 38%;
+	line-height: 1.5em;
+}
+
+
+.text_on_image h2 {
+	font-weight: 300;
+	font-size: 2em;
+	color: #fff;
+	padding-top: 60px;
+}
+
+.text_on_image p {
+	font-weight: 300;
+	font-size: 1.25em;
+	color: #fff;
+	padding-top: 20px;
+}
+
+
+h2, h3 {
+
+}
+
+h1 {
+ 	color: #9900FF;
+ 	font-size: 32px;
+ 	font-weight: 400;
+}
+
+h2 {
+	padding-left: 1.35em;
+	color: #999;
+}
+
+h3 {
+	color: #999;
+	font-size: 1.25em;
+}
+
+p {
+    padding-left: 2.25em;
+    color: #fff;
+    line-height: 1.5em;
+
+}
+
+
+.side_nav {
+	color: #999;
+	float: left;
+	padding-left: 2em;
+}
+
+.side_nav a {
+	text-decoration: none;
+	line-height: 1.45em;
+	color: #999;
+}
+
+nav {
+	padding: 0 2em;
+}
+
+nav a {
+	text-decoration: none;
+	float: right;
+	color: #999;
+	padding-right: 2em;
+}
+
+a:hover {
+   color: #9900FF;
+}
+
+.rule {
+	width: 100%;
+	background-color: #9900FF;
+	height: .05em;
+	margin: 1em 0;
+}
+
+#process {
+	float: right;
+	width: 83%;
+	padding-right: 6em;
+	line-height: 1.25em;
+}
+
+
+#block {
+	background-color: #4D4D4D;
+	padding: 2em 0 7.5em 0;
+	margin: 1em 0 4em 0;
+}
+
+#block h2 {
+	font-weight: 300;
+	font-size: 2em;
+	color: #fff;
+}
+
+
+.web_mobile {
+    width: 95%;
+}
+
+.top {
+	float:right;
+	margin-bottom: 2em;
+	width: 40%;
+}
+
+.bottom {
+	float:right;
+	margin-bottom: 2em;
+	width: 40%;
+
+}
+
+
+
+
+
+footer {
+     padding-left: 2em;
+     clear: both;
+}
+
+
+footer a {
+	text-decoration: none;
+	color: #999;
+}
+
+
+
