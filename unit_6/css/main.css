@@ -33,18 +33,23 @@ header {
 	clear:both;
 }
 
+
 #hero {
 	background-image: url("../../unit_6/images/placeholder.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-	height:85vh;
+	height:80vh;
 	clear:both;
 }
 
 
 .text_on_image {
+	background-color: #4D4D4D;
 	width: 38%;
 	line-height: 1.5em;
+	padding-bottom: 2.5em;
+	padding-right: 2em;
+	opacity: 0.6;
 }
 
 
@@ -52,7 +57,7 @@ header {
 	font-weight: 300;
 	font-size: 2em;
 	color: #fff;
-	padding-top: 60px;
+	padding-top: 1.75em;
 }
 
 .text_on_image p {
@@ -99,16 +104,20 @@ p {
 
 .side_nav a {
 	text-decoration: none;
+		font-size: 1.05em;
 	line-height: 1.45em;
 	color: #999;
 }
 
 nav {
 	padding: 0 2em;
+	margin-bottom: 1.75em;
+
 }
 
 nav a {
 	text-decoration: none;
+	font-size: 1.05em;
 	float: right;
 	color: #999;
 	padding-right: 2em;
@@ -134,7 +143,7 @@ a:hover {
 
 
 #block {
-	background-color: #4D4D4D;
+	background-color: #939191;
 	padding: 2em 0 7.5em 0;
 	margin: 1em 0 4em 0;
 }
