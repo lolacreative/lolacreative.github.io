@@ -28,9 +28,33 @@ body {
 }
 
 header {
-	padding-top: 2.5em;
-	padding-left: 2em;
-	clear:both;
+	padding: 3.25em 0 0 2em;
+
+}
+
+
+h1 {
+	float: left;
+ 	color: #9900FF;
+ 	font-size: 40px;
+ 	font-weight: 400;
+
+}
+
+nav {
+	float: right;
+	clear: both;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 1.25em;
+	color: #999;
+	padding-right: 2em;
+}
+
+nav li {
+	display: inline;
 }
 
 
@@ -38,49 +62,37 @@ header {
 	background-image: url("../../unit_6/images/placeholder.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	padding-top: 5em;
+	margin-top: 2em;
 	height:80vh;
 	clear:both;
 }
 
 
 .text_on_image {
-	background-color: #4D4D4D;
+    background-color: rgba(77,77,77,0.5);
 	width: 38%;
-	line-height: 1.5em;
-	padding-bottom: 2.5em;
-	padding-right: 2em;
-	opacity: 0.6;
+	padding: 2em;
+
 }
 
 
 .text_on_image h2 {
 	font-weight: 300;
-	font-size: 2em;
+	font-size: 2.5em;
 	color: #fff;
-	padding-top: 1.75em;
+	margin-bottom: .5em;
 }
 
 .text_on_image p {
 	font-weight: 300;
-	font-size: 1.25em;
+	font-size: 1.65em;
 	color: #fff;
-	padding-top: 20px;
 }
 
-
-h2, h3 {
-
-}
-
-h1 {
- 	color: #9900FF;
- 	font-size: 32px;
- 	font-weight: 400;
-}
 
 h2 {
-	padding-left: 1.35em;
-	color: #999;
+	font-size: 40px;
 }
 
 h3 {
@@ -89,75 +101,55 @@ h3 {
 }
 
 p {
-    padding-left: 2.25em;
     color: #fff;
     line-height: 1.5em;
-
-}
-
-
-.side_nav {
-	color: #999;
-	float: left;
-	padding-left: 2em;
-}
-
-.side_nav a {
-	text-decoration: none;
-		font-size: 1.05em;
-	line-height: 1.45em;
-	color: #999;
-}
-
-nav {
-	padding: 0 2em;
-	margin-bottom: 1.75em;
-
-}
-
-nav a {
-	text-decoration: none;
-	font-size: 1.05em;
-	float: right;
-	color: #999;
-	padding-right: 2em;
-}
-
-a:hover {
-   color: #9900FF;
-}
-
-.rule {
-	width: 100%;
-	background-color: #9900FF;
-	height: .05em;
-	margin: 1em 0;
-}
-
-#process {
-	float: right;
-	width: 83%;
-	padding-right: 6em;
-	line-height: 1.25em;
 }
 
 
 #block {
 	background-color: #939191;
-	padding: 2em 0 7.5em 0;
+	padding: 2em 2em 8em 2em;
 	margin: 1em 0 4em 0;
+	clear: both;
+
 }
 
+
 #block h2 {
+	float: left;
 	font-weight: 300;
 	font-size: 2em;
 	color: #fff;
 }
 
-
-.web_mobile {
-    width: 95%;
+#block p {
+	float: right;
+	width: 80%;
+	font-weight: 300;
+	font-size: 1.35em;
+	color: #fff;
 }
+
+.side_nav {
+	float: left;
+	padding-left: 2em;
+	clear: both;
+}
+
+.side_nav a {
+	text-decoration: none;
+	font-size: 1.25em;
+	line-height: 1.45em;
+	color: #999;
+}
+
+
+
+a:hover {
+   color: #9900FF;
+}
+
+
 
 .top {
 	float:right;
@@ -167,24 +159,33 @@ a:hover {
 
 .bottom {
 	float:right;
-	margin-bottom: 2em;
 	width: 40%;
-
 }
-
-
-
 
 
 footer {
      padding-left: 2em;
+     padding-bottom: 3em;
      clear: both;
 }
 
 
-footer a {
-	text-decoration: none;
-	color: #999;
+footer h3 {
+	line-height: 3em;
+    float:left;
+    clear: both;
+}
+
+
+#link1 {
+   float:right;
+   width: 80%;
+   clear: both;
+}
+#link2 {
+   float:right;
+   width: 80%;
+   clear: both;
 }
 
 
