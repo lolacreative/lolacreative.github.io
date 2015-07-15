@@ -14,20 +14,20 @@
 }
 
 #wrapper {
- max-width: 1670px;
+   max-width: 1670px;
    margin: 0 auto;
 }
 
 body {
 	color: #828181;
-	font-size:20px;
+	font-size:22px;
 	font-family: Arial, sans-serif;
 	background-color: #FFFFFF;
 }
 
 nav {
 	float:right;
-	font-size: .85em;
+	font-size: 1em;
 	padding-top: 2.5em;
 }
 
@@ -68,14 +68,46 @@ header {
 }
 
 header img {
-	width: 15em;
+	width: 17em;
 }
+
+#splash {
+	background-image:url("../images/stock.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding-top: 33em;
+	height:90vh;
+	clear: both;
+}
+
+
+.text_on_image {
+	text-align: center;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 10px;
+	width: 130px;
+	margin: 10em auto;
+	padding: .5em;
+}
+
+.text_on_image p {
+	font-size: 1.15em;
+	color: #249FDA;
+}
+
+.text_on_image a {
+	text-align: center;
+    border-radius: 10px;
+	color: #249FDA;
+	text-decoration: none;
+}
+
 
 h1 {
 	font-family: "le-monde-journal-std-2",sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size:1.15em;
+	font-size:1.25em;
 	text-align: center;
 	padding: 1em 0;
 	color: #D84832;
@@ -83,12 +115,21 @@ h1 {
 
 #headline {
 	text-align: center;
-	width: 900px;
+	width: 1200px;
 	line-height: 1.5em;
 	margin: 2.5em auto;
 }
 
+p {
 
+}
+
+
+#photos {
+	width: 1475px;
+	margin: auto;
+
+}
 
 #photos a {
 	color: #249FDA;
@@ -111,54 +152,11 @@ h1 {
 
 }
 
-#splash {
-	background-image:url("../images/stock.jpg");
-	background-size:cover;
-	background-repeat:no-repeat;
-	padding-top: 33em;
-	height:90vh;
-	clear: both;
-}
-
-
-.text_on_image {
-	text-align: center;
-    background-color: rgba(255,255,255,0.9);
-    border-radius: 10px;
-	width: 130px;
-	margin: .75em auto;
-	padding: .5em;
-}
-
-.text_on_image p {
-	color: #249FDA;
-}
-
-.text_on_image a {
-	text-align: center;
-    border-radius: 10px;
-	color: #249FDA;
-	text-decoration: none;
-}
-
-p {
-
-
-}
-
-#photos {
-	width: 1460px;
-	margin: auto;
-}
-
-
-
-
-
 figcaption {
-	font-size: .95em;
+	font-size: 1em;
 	text-align: center;
 	padding: .5em;
+
 }
 
 .about {
