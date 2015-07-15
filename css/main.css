@@ -4,37 +4,51 @@
 	box-sizing: border-box; 
 }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+#wrapper {
+ width: 1670px;
+}
+
 body {
-	color: #666666;
-	font-size:24px;
+	color: #828181;
+	font-size:20px;
 	font-family: Arial, sans-serif;
 	background-color: #FFFFFF;
 }
 
 nav {
 	float:right;
-}
-nav a {
-	font-size:.66em;
-}
-header {}
-header img {
-	width:10em;
-}
-h1 {
-	font-family: "le-monde-journal-std-2",sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size:1.25em;
-	text-align: center;
-	padding-top: 1em;
-	color: #D84832;
+	font-size: .85em;
+	padding-top: 2.5em;
 }
 
-p {
-	text-align: center;
-	padding: 20px 45px 50px 45px;
-	margin: 0em 10em 0em 10em;
+
+nav a {
+    width: 4.5em;
+	margin: .25em;
+	padding: 1em 2em 0em 0em;
+	color: #828181;
+	text-decoration: none;
+
+}
+
+
+nav a:hover, a:active {
+    color: #249FDA;
+    border-bottom: .3em solid #249FDA;
+    width: 4.5em;
+	margin: .25em;
+	padding: 1em 2em 0em 0em;
+	color: #828181;
+	text-decoration: none;
 
 }
 
@@ -46,30 +60,141 @@ li{
 	float: left;
 }
 
-a {
-	font-size: 1em;
+
+
+header {
+    padding:2em 2.5em;
+}
+
+header img {
+	width: 15em;
+}
+
+h1 {
+	font-family: "le-monde-journal-std-2",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:1.15em;
+	text-align: center;
+	padding: 1em 0;
+	color: #D84832;
+}
+
+#headline {
+	text-align: center;
+	width: 900px;
+	line-height: 1.5em;
+	margin: 2.5em auto;
+}
+
+
+
+#photos a {
+	color: #249FDA;
 	width: 4.5em;
 	margin: .25em;
-	padding: 1em 3em 0em 0em;
-	color: #666666;
+	padding: 1em 2em 0em 0em;
+	color: #fff;
 	text-decoration: none;
 }
 
-a:hover, a:active {
+#photos a:hover{
+    color: #b9e2fa;
+	text-decoration: none;
+}
+
+#photos a:active{
     color: #249FDA;
-    text-decoration: underline;
+	text-decoration: none;
+	border-bottom: 0em;
+
 }
 
 #splash {
-	background-image:url("../images/twogirls3_A.jpg");
+	background-image:url("../images/stock.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
+	padding-top: 33em;
 	height:90vh;
+	clear: both;
+}
+
+
+.text_on_image {
+	text-align: center;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 10px;
+	width: 10%;
+	margin: 5em auto;
+	padding: .5em;
+}
+
+.text_on_image p {
+	color: #249FDA;
+}
+
+p {
+
+
+}
+
+#photos {
+	width: 1460px;
+	margin: auto;
+}
+
+
+
+
+
+figcaption {
+	font-size: .95em;
+	text-align: center;
+	padding: .5em;
+}
+
+.about {
+	width: 554px;
+    background-color: #3580BF;
+}
+
+.admissions {
+	width: 338px;
+    background-color: #3580BF;
+}
+
+.contact {
+	width: 417px;
+	background-color: #3580BF;
+}
+
+.programs {
+	width: 554px;
+    background-color: #3580BF;
+}
+
+.community {
+	width: 338px;
+    background-color: #3580BF;
+}
+
+.about_image, .admissions_image, .programs_image, .community_image {
+	float: left;
+}
+
+.contact_image {
+	float: right;
 }
 
 footer {
-	padding: 2em;
-	font-size: 1em;
+	padding: 2em 0;
+	clear: both;
+}
+
+footer p {
+	text-align: center;
+	font-size: .95em;
+
 }
 
 
