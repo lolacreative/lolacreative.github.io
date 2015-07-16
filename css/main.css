@@ -14,7 +14,7 @@
 }
 
 #wrapper {
-   max-width: 1670px;
+   max-width: 2000px;
    margin: 0 auto;
 }
 
@@ -33,7 +33,6 @@ nav {
 
 
 nav a {
-    width: 4.5em;
 	margin: .25em;
 	padding: 1em 2em 0em 0em;
 	color: #828181;
@@ -45,12 +44,9 @@ nav a {
 nav a:hover, a:active {
     color: #249FDA;
     border-bottom: .3em solid #249FDA;
-    width: 4.5em;
-	margin: .25em;
-	padding: 1em 2em 0em 0em;
+	padding: 1em 2em .5em 0em;
 	color: #828181;
 	text-decoration: none;
-
 }
 
 ul {
@@ -117,7 +113,7 @@ h1 {
 	text-align: center;
 	width: 1200px;
 	line-height: 1.5em;
-	margin: 2.5em auto;
+	margin: 2em auto;
 }
 
 p {
@@ -125,9 +121,8 @@ p {
 }
 
 
-#photos {
-	width: 1475px;
-	margin: auto;
+#photos img{
+	width: 100%;
 
 }
 
