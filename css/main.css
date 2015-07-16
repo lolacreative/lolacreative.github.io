@@ -13,10 +13,7 @@
   font-size: 0;
 }
 
-#wrapper {
-   max-width: 2000px;
-   margin: 0 auto;
-}
+
 
 body {
 	color: #828181;
@@ -27,16 +24,16 @@ body {
 
 nav {
 	float:right;
-	font-size: 1em;
-	padding-top: 2.5em;
+	font-size: .75em;
+	padding: 3.5em 2em .5em 0em;
 }
 
 
 nav a {
-	margin: .25em;
-	padding: 1em 2em 0em 0em;
-	color: #828181;
+    margin: 0 1em;
+    color: #828181;
 	text-decoration: none;
+	padding-bottom: .5em;
 
 }
 
@@ -44,7 +41,6 @@ nav a {
 nav a:hover, a:active {
     color: #249FDA;
     border-bottom: .3em solid #249FDA;
-	padding: 1em 2em .5em 0em;
 	color: #828181;
 	text-decoration: none;
 }
