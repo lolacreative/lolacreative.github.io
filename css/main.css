@@ -25,7 +25,7 @@ body {
 nav {
 	float:right;
 	font-size: .75em;
-	padding: 3.5em 2em .5em 0em;
+	padding: 3.5em 0 1em 0;
 }
 
 
@@ -67,9 +67,8 @@ header img {
 	background-image:url("../images/stock.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-	padding-top: 33em;
+	padding-top: 35em;
 	height:90vh;
-	clear: both;
 }
 
 
@@ -78,7 +77,7 @@ header img {
     background-color: rgba(255,255,255,0.9);
     border-radius: 10px;
 	width: 130px;
-	margin: 10em auto;
+	margin: 0 auto;
 	padding: .5em;
 }
 
@@ -112,76 +111,65 @@ h1 {
 	margin: 2em auto;
 }
 
-p {
+.images {
+	width: 66%;
+    margin: 0 auto;
+}
+
+.wrapper {
+	float: left;
+	width: 66%;
+
+}
+
+.figure {
+	float: left;
+
+}
+
+.figure img {
+	float: left;
+	margin: 0 .5em 1em 0;
+	clear: both;
+}
+
+.right_image {
+	float: left;
+    width: 33%;
 
 }
 
 
-#photos img{
-	width: 100%;
-
-}
-
-#photos a {
-	color: #249FDA;
-	width: 4.5em;
-	margin: .25em;
-	padding: 1em 2em 0em 0em;
-	color: #fff;
-	text-decoration: none;
-}
-
-#photos a:hover{
-    color: #b9e2fa;
-	text-decoration: none;
-}
-
-#photos a:active{
-    color: #249FDA;
-	text-decoration: none;
-	border-bottom: 0em;
-
-}
-
-figcaption {
+figcaption{
+	background-color: #3580BF;
+	float: left;
 	font-size: 1em;
 	text-align: center;
 	padding: .5em;
 
 }
 
-.about {
-	width: 554px;
-    background-color: #3580BF;
+.figure a, .right_image a {
+	color: #249FDA;
+	margin: .25em;
+	padding: 1em 2em 0em 0em;
+	color: #fff;
+	text-decoration: none;
+
 }
 
-.admissions {
-	width: 338px;
-    background-color: #3580BF;
+.figure a:hover, .right_image a:hover {
+    color: #b9e2fa;
+	text-decoration: none;
 }
 
-.contact {
-	width: 417px;
-	background-color: #3580BF;
+.figure a:active, .right_image a:active {
+    color: #249FDA;
+	text-decoration: none;
+	border-bottom: 0em;
 }
 
-.programs {
-	width: 554px;
-    background-color: #3580BF;
-}
 
-.community {
-	width: 338px;
-    background-color: #3580BF;
-}
-
-.about_image, .admissions_image, .programs_image, .community_image {
-	float: left;
-}
-
-.contact_image {
-	float: right;
-}
 
 footer {
 	padding: 2em 0;
@@ -193,6 +181,8 @@ footer p {
 	font-size: .95em;
 
 }
+
+
 
 
 
