@@ -124,7 +124,6 @@ h1 {
 
 .figure {
 	float: left;
-
 }
 
 .figure img {
@@ -143,11 +142,27 @@ h1 {
 figcaption{
 	background-color: #3580BF;
 	float: left;
+	width: 277px;
 	font-size: 1em;
 	text-align: center;
 	padding: .5em;
-
+	clear: both;
 }
+
+.wide {
+	width: 554px;
+}
+
+.wide_2 {
+	width: 387px;
+	background-color: #3580BF;
+	float: left;
+	font-size: 1em;
+	text-align: center;
+	padding: .5em;
+	clear: both;
+}
+
 
 .figure a, .right_image a {
 	color: #249FDA;
