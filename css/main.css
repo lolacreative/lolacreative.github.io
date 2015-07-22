@@ -112,8 +112,9 @@ h1 {
 }
 
 .images {
-	width: 66%;
-    margin: 0 auto;
+	float: left;
+	margin: 0 auto;
+
 }
 
 .wrapper {
@@ -124,25 +125,26 @@ h1 {
 
 .figure {
 	float: left;
+
+
 }
 
 .figure img {
 	float: left;
-	margin: 0 .5em 1em 0;
+	margin-bottom: 1em;
 	clear: both;
 }
 
 .right_image {
 	float: left;
     width: 33%;
-
 }
 
 
 figcaption{
 	background-color: #3580BF;
-	float: left;
 	width: 277px;
+	float: left;
 	font-size: 1em;
 	text-align: center;
 	padding: .5em;
@@ -196,9 +198,6 @@ footer p {
 	font-size: .95em;
 
 }
-
-
-
 
 
 
