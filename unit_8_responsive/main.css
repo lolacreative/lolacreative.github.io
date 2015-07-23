@@ -111,60 +111,62 @@ h1 {
 	margin: 2em auto;
 }
 
-
-
-.left-wrapper {
+.images {
 	float: left;
-	width: 66%;
+	margin: 0 auto;
+
 }
 
+.wrapper {
+	float: left;
+	width: 66%;
 
-.right-wrapper {
-	float: right;
+}
+
+.figure {
+	float: left;
+
+
+}
+
+.figure img {
+	float: left;
+	margin-bottom: 1em;
+	clear: both;
+}
+
+.right_image {
+	float: left;
     width: 33%;
 }
 
 
-.wide {
+figcaption{
+	background-color: #3580BF;
+	width: 277px;
 	float: left;
-	color: #fff;
-	text-decoration: none;
-	width: 66%;
-	margin-right: 1%;
+	font-size: 1em;
+	text-align: center;
+	padding: .5em;
+	clear: both;
 }
 
+.wide {
+	width: 554px;
+}
 
 .wide_2 {
+	width: 387px;
+	background-color: #3580BF;
 	float: left;
-	color: #fff;
-	text-decoration: none;
-	width: 33%;
+	font-size: 1em;
+	text-align: center;
+	padding: .5em;
+	clear: both;
 }
 
-.wide_right {
-	color: #fff;
-	text-decoration: none;
-}
 
-.left-wrapper img, .right-wrapper img {
-  width: 100%;
-  display: block;
-  margin-bottom: 2%;
-}
-
-.wide figcaption {
-  padding: 3%;
-}
-
-.wide_2 figcaption {
-  padding: 6%;
-}
-
-.wide_right figcaption {
-   padding: 3.95%;
-}
-
-/*.figure a, .right_image a {
+.figure a, .right_image a {
 	color: #249FDA;
 	margin: .25em;
 	padding: 1em 2em 0em 0em;
@@ -183,13 +185,7 @@ h1 {
 	text-decoration: none;
 	border-bottom: 0em;
 }
-*/
 
-figcaption{
-	background-color: #3580BF;
-	font-size: 1em;
-	text-align: center;
-}
 
 
 footer {
