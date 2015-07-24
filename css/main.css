@@ -233,14 +233,14 @@ nav, nav a, nav a:hover, a:active {
 
 
 #headline {
-	font-size: 100%;
+	font-size: 80%;
     width: none;
 	margin-bottom: 5%;
 	padding: 0 10%;
 }
 
 #headline p {
-	font-size: 70%;
+	font-size: 60%;
 	line-height: 150%;
 }
 
