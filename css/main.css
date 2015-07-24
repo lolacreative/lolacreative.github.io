@@ -13,8 +13,6 @@
   font-size: 0;
 }
 
-
-
 body {
 	color: #828181;
 	font-size:22px;
@@ -24,19 +22,16 @@ body {
 
 nav {
 	float:right;
-	font-size: .75em;
+	font-size: 100%;
 	padding: 3.5em 0 1em 0;
 }
-
 
 nav a {
     margin: 0 1em;
     color: #828181;
 	text-decoration: none;
 	padding-bottom: .5em;
-
 }
-
 
 nav a:hover, a:active {
     color: #249FDA;
@@ -52,8 +47,6 @@ ul {
 li{
 	float: left;
 }
-
-
 
 header {
     padding:2em 2.5em;
@@ -82,7 +75,7 @@ header img {
 }
 
 .text_on_image p {
-	font-size: 1.15em;
+	font-size: 100%;
 	color: #249FDA;
 }
 
@@ -98,26 +91,24 @@ h1 {
 	font-family: "le-monde-journal-std-2",sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size:1.25em;
+	font-size:100%;
 	text-align: center;
-	padding: 1em 0;
+	padding: .5em 0;
 	color: #D84832;
 }
 
 #headline {
 	text-align: center;
-	width: 1200px;
+	width: 60%;
 	line-height: 1.5em;
-	margin: 2em auto;
+	margin: 2% auto 2.5% auto;
 }
-
 
 
 .left-wrapper {
 	float: left;
 	width: 66%;
 }
-
 
 .right-wrapper {
 	float: right;
@@ -202,6 +193,71 @@ footer p {
 	font-size: .95em;
 
 }
+
+
+@media only screen and (max-width: 768px) {
+.left-wrapper, .right-wrapper, .wide, .wide_2, h1, #headline {
+ float: none;
+ width: auto;
+}
+
+#splash {
+	background-image:none;
+	background-size:none;
+	background-repeat:none;
+	padding-top: 0em;
+	height:0vh;
+}
+
+.text_on_image, .text_on_image p, .text_on_image a {
+	text-align: none;
+    background-color: none;
+    border-radius: 0px;
+	width: 0;
+	margin: 0;
+	padding: 0;
+	color: none;
+	font-size: 0;
+   }
+
+nav, nav a, nav a:hover, a:active {
+    color: #249FDA;
+	border-bottom: 0;
+    text-decoration: none; 
+	float:none;
+	font-size: 0;
+	padding: 0;
+	color: none;
+	text-decoration: none;
+}
+
+
+#headline {
+	font-size: 125%;
+    width: none;
+	margin-bottom: 5%;
+	padding: 0 10%;
+}
+
+#headline p {
+	font-size: 80%;
+	line-height: 150%;
+}
+
+header, header img {
+	width: 70%;
+	padding: 10% 0 5% 5%;
+	display: block;
+}
+
+.right-wrapper img {
+  width: 0;
+  display: none;
+  margin-bottom: 0;
+}
+ 
+}
+
 
 
 
