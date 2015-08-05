@@ -60,8 +60,8 @@ header img {
 	background-image:url("../images/stock.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
-	padding-top: 35em;
-	height:90vh;
+	padding-top: 36em;
+    height: 95vh;
 }
 
 
@@ -69,15 +69,14 @@ header img {
 	text-align: center;
     background-color: rgba(255,255,255,0.9);
     border-radius: 10px;
-	width: 130px;
-	margin: 0 auto;
+	width: 155px;
 	padding: .5em;
-}
-
-.text_on_image p {
+	margin: 0 auto;
 	font-size: 100%;
 	color: #249FDA;
 }
+
+
 
 .text_on_image a {
 	text-align: center;
