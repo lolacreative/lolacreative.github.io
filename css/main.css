@@ -111,6 +111,7 @@ h1 {
 .left-wrapper {
 	float: left;
 	width: 66%;
+
 }
 
 .right-wrapper {
@@ -123,8 +124,8 @@ h1 {
 	float: left;
 	color: #fff;
 	text-decoration: none;
-	width: 66%;
-	margin-right: 1%;
+	margin-right: .25em;
+		width: 66%;
 }
 
 
@@ -143,20 +144,38 @@ h1 {
 .left-wrapper img, .right-wrapper img {
   width: 100%;
   display: block;
-  margin-bottom: 2%;
+  padding-bottom: 2%;
 }
 
-.wide figcaption {
-  padding: 3%;
+.wide p {
+background-color: #3580BF;
+font-size: 1em;
+text-align: center;
+ padding: 3%;
 }
 
-.wide_2 figcaption {
-  padding: 6%;
+.wide_2 p {
+	background-color: #3580BF;
+	font-size: 1em;
+	text-align: center;
+    padding: 6%;
 }
 
-.wide_right figcaption {
+.wide_right p {
+	background-color: #3580BF;
+	font-size: 1em;
+	text-align: center;
    padding: 3.95%;
+
+ /*.wide p, .wide_2 p, .wide_right p {
+	background-color: #3580BF;
+	font-size: 1em;
+	text-align: center;
 }
+*/
+
+
+
 
 /*.figure a, .right_image a {
 	color: #249FDA;
@@ -176,11 +195,6 @@ h1 {
 }
 */
 
-figcaption{
-	background-color: #3580BF;
-	font-size: 1em;
-	text-align: center;
-}
 
 
 footer {
